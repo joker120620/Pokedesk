@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>pokedesk</title>
+</head>
+<body>
+
+    <header>
+        <nav class="barra">
+            <div class="con_bus">
+                <img src="https://falberthen.github.io/assets/img/posts/2022-02-12-pokedex/pokedex-logo.png" alt="" width="500px ">
+                <div class="con_barra">
+                   <input type="search" name="" id="buscador">
+                   <button id="btnBuscar">Buscar</button>
+                </div>
+               
+            </div>
+        </nav>
+    </header>
+    <main class="main" id="main">
+        <section id="container_pokemon" class ="container_pokemon">
+        </section>
+        <section id="modal" >
+            <div class="container_modal" id="container_modal">
+                <div class="barra-modal">
+                    <button id="cerrarModal" onclick="cerrarModal()">X</button>
+                </div>
+                <img src="" id="modal_image" class="imagen">
+                <h3 id="modal_nombre"></h3>
+                <h3 id="habilidad"></h3>
+                <h3 id="tipo"></h3>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./main.js"></script>
+</body>
+</html>
